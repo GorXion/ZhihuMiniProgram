@@ -1,0 +1,79 @@
+/* pages/home/home.wxss */
+
+/* .content {
+  width: 2250rpx;
+  height: 1314rpx;
+  display: flex;
+} */
+
+.follow {
+  width: 750rpx;
+  background-color: red;
+}
+
+.recommend {
+  /* width: 750rpx; */
+  /* height: auto; */
+}
+
+.hot {
+  /* width: 750rpx; */
+  background-color: cyan;
+}
+
+.recommend-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #999;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50rpx;
+  padding: 20rpx;
+}
+
+.top .avatar {
+  border-radius: 50%;
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.top .category {
+  padding-left: 20rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .title {
+  padding-left: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: 32rpx;
+}
+
+.content .media {
+  width: 100%;
+}
+
+.content .intro {
+  font-size: 28rpx;
+  color: #666;
+  padding: 20rpx;
+}
+
+.bottom {
+  padding-bottom: 10rpx;
+}
+
+.bottom text {
+  padding-left: 20rpx;
+  font-size: 24rpx;
+  color: #bbb;
+}

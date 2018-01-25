@@ -1,0 +1,12 @@
+<template name="user-item">
+  <view class='item'>
+    <view class='left'>
+      <image class='avatar' src="http://dummyimage.com/50x50"></image>
+      <view class='content'>
+        <text class='name'>张三</text>
+        <text class='desc'>研究控+八卦爱好者</text>
+      </view>
+    </view>
+    <text class='follow'>+ 关注</text>
+  </view>
+</template>

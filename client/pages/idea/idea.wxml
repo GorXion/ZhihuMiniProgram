@@ -1,0 +1,26 @@
+<!--pages/idea/idea.wxml-->
+<view>
+  <swiper class='banner' autoplay circular>
+    <block wx:for="{{discussList}}" wx:key="item.number">
+      <swiper-item>
+        <import src="bannerItem.wxml" />
+        <template is="banner-item" data="{{item: item}}"></template>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='user'>
+    <text class='header'>关注有趣的人,收获更多好想法</text>
+    <view wx:for="{{[1, 2, 3, 4]}}" wx:key="item">
+      <import src="userItem.wxml" />
+      <template is="user-item"></template>
+    </view>
+    <view class='bottom'>
+      <view class='left'>
+        <text>换一批</text>
+      </view>
+      <view class='right'>
+        <text>全部关注</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/idea/idea",
+    "pages/market/market",
+    "pages/message/message",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "backgroundColor": "white",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#1E8AE8",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/home.png",
+        "selectedIconPath": "assets/home-light.png"
+      },
+      {
+        "pagePath": "pages/idea/idea",
+        "text": "想法",
+        "iconPath": "assets/find.png",
+        "selectedIconPath": "assets/find-light.png"
+      },
+      {
+        "pagePath": "pages/market/market",
+        "text": "市场",
+        "iconPath": "assets/market.png",
+        "selectedIconPath": "assets/market-light.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "assets/msg.png",
+        "selectedIconPath": "assets/msg-light.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "assets/more.png",
+        "selectedIconPath": "assets/more-light.png"
+      }
+    ]
+  }
+}

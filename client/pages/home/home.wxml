@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<view>
+  <!-- <scroll-view class='scroll-view_H' scroll-x style='width: 100%'> -->
+    <!-- <view class='follow'></view> -->
+    <view class='scroll-view-item_H recommend'>
+      <view wx:for="{{dataSource}}" wx:key="item.id">
+        <view style='height:20rpx;background-color:#eee'></view>
+        <import src="recommendItem.wxml" />
+        <template is="recommend-item" data="{{item: item}}"></template>
+      </view>
+    </view>
+    <view class='scroll-view-item_H hot'></view>
+  <!-- </scroll-view> -->
+</view>

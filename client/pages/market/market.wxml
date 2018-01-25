@@ -1,0 +1,36 @@
+<!--pages/market/market.wxml-->
+<view>
+  <view class='header'>
+    <view class='left'>
+      <text class='title'>今日推荐</text>
+      <text class='date'>{{today}}</text>
+    </view>
+    <input class='right' type='text' placeholder='搜索相关内容' confirm-type='search' bindfocus="searchFocus"></input>
+  </view>
+  <swiper>
+    <block wx:for="{{[1, 2, 3, 4]}}" wx:key="item">
+      <swiper-item>
+        <banner-item image="http://dummyimage.com/720x280" title="关于阅读的一些小经验" intro="{{intro}}"></banner-item>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='category'>
+    <view class='category-item' wx:for="{{[1, 2, 3, 4, 5]}}" wx:key="item">
+      <image src="../../assets/msg-header.png"></image>
+      <text>互联网</text>
+    </view>
+  </view>
+  <view class='free'>
+    <text class='first'>限时免费</text>
+    <text class='last'>精品内容，限时限量</text>
+  </view>
+  <banner-item image="http://dummyimage.com/720x280" title="关于阅读的一些小经验" intro="{{intro}}"></banner-item>
+  <text style='padding:20rpx;font-size:40rpx;'>编程推荐</text>
+  <view class='cell' wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8]}}" wx:key="item">
+    <view class='left'>
+      <text class='title'>从0到1，学透区块链玩转比特币</text>
+      <text class='intro'>知名比特币交易平台COO亲授，学透区块链知识玩转比特币，把握未来先机。</text>
+    </view>
+    <image src="http://dummyimage.com/180x100" mode='widthFix'></image>
+  </view>
+</view>

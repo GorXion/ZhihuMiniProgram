@@ -1,0 +1,6 @@
+<!--pages/market/banner-item/banner-item.wxml-->
+<view class='banner-item'>
+  <image mode='widthFix' src="{{image}}"></image>
+  <text class='title'>{{title}}</text>
+  <text class='intro'>{{intro}}</text>
+</view>

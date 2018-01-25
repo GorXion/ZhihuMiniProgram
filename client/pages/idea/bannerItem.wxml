@@ -1,0 +1,14 @@
+<template name="banner-item">
+  <view class='item'>
+    <view class='content'>
+      <text class='label'>正在讨论</text>
+      <view class='bottom'>
+        <view class='left'>
+          <text class='title'>{{item.title}}</text>
+          <text class='tip'>{{item.tip}}</text>
+        </view>
+        <image src="{{item.image}}"></image>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,24 @@
+/* pages/market/banner-item/banner-item.wxss */
+.banner-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20rpx;
+  height: auto;
+}
+
+.banner-item image {
+  width: 720rpx;
+  border-radius: 10rpx;
+  padding-bottom: 10rpx;
+}
+
+.banner-item .title {
+  font-size: 32rpx;
+  padding-bottom: 10rpx;
+}
+
+.banner-item .intro {
+  font-size: 24rpx;
+  color: #999;
+}
